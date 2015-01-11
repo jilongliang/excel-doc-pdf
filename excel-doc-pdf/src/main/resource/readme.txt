@@ -1,9 +1,9 @@
 
- 	ÓÉÓÚ×î½ü¹«Ë¾ÏîÄ¿ÓÃµ½POI£¬¾ÍÕûÀí³öÀ´µÄ±¾¹¤³ÌÀý×Ó´úÂë£¬³ýÁËjxl£¬´ó¶àÊýÊÇ±ðÈËÐ´µÄ²©¿Í£¬Ëæ±ãÄÜ³öÀ´Office£¨Excel,Word,PDF£©
- °ì¹«µÄ¼¼ÊõÕûºÏÒ»Ð©ÔÚÍøÉÏÒ²Ã»ÕÒµ½Ò»¸ö±È½ÏÍêÉÆµÄ¹¤³Ì´úÂëÑ§Ï° ÔÚÇ°±²ÉÏÃæµÄÀý×Ó×öÁËÒ»ÏÂÐÞ¸ÄºÍ´¦Àí£¡ÔÚÏÂÔØ±¾¹¤³ÌÖ®ºó£¬±ØÐëÒª¶®µã
- MavenÏîÄ¿¹ÜÀí¼¼Êõ.ÈçÓÐÒª¸Ä½øµÄµØ·½»òÕß¸üºÃ²Ù×÷µÄOffice£¬Çë¸÷Î»Ö¸³öºÍ½¨Òé£¬¹²Í¬½ø²½£¡Ð»Ð»£¡
+ 	ç”±äºŽæœ€è¿‘å…¬å¸é¡¹ç›®ç”¨åˆ°POIï¼Œå°±æ•´ç†å‡ºæ¥çš„æœ¬å·¥ç¨‹ä¾‹å­ä»£ç ï¼Œé™¤äº†jxlï¼Œå¤§å¤šæ•°æ˜¯åˆ«äººå†™çš„åšå®¢ï¼Œæ•´ç†è¿™äº›æŠ€æœ¯æ“ä½œOfficeï¼ˆExcel,Word,PDFï¼‰
+ åŠžå…¬çš„æŠ€æœ¯æ•´åˆä¸€äº›åœ¨ç½‘ä¸Šä¹Ÿæ²¡æ‰¾åˆ°ä¸€ä¸ªæ¯”è¾ƒå®Œå–„çš„å·¥ç¨‹ä»£ç å­¦ä¹  åœ¨å‰è¾ˆä¸Šé¢çš„ä¾‹å­åšäº†ä¸€ä¸‹ä¿®æ”¹å’Œæ•´ç†ï¼åœ¨ä¸‹è½½æœ¬å·¥ç¨‹ä¹‹åŽï¼Œå¿…é¡»è¦æ‡‚ç‚¹
+ Mavené¡¹ç›®ç®¡ç†æŠ€æœ¯.å¦‚æœ‰è¦æ”¹è¿›çš„åœ°æ–¹æˆ–è€…æ›´å¥½æ“ä½œçš„Officeï¼Œè¯·å„ä½æŒ‡å‡ºå’Œå»ºè®®ï¼Œå…±åŒè¿›æ­¥ï¼è°¢è°¢ï¼
 
-1¡¢===============poi=============================================
+1ã€===============poi=============================================
 	poi-3.9-20121203.jar
 	poi-examples-3.9-20121203.jar
 	poi-excelant-3.9-20121203.jar
@@ -11,47 +11,47 @@
 	poi-ooxml-schemas-3.9-20121203.jar
 	poi-scratchpad-3.9-20121203.jar
 	
-	²Î¿¼²©¿Í£ºhttp://sarin.iteye.com/blog/845035
+	å‚è€ƒåšå®¢ï¼šhttp://sarin.iteye.com/blog/845035
 	
-	   ApacheµÄPOI×é¼þÊÇJava²Ù×÷Microsoft Office°ì¹«Ì×¼þµÄÇ¿´óAPI,ÆäÖÐ¶ÔWord,ExcelºÍPowperPoint¶¼ÓÐÖ§³Ö,
-	µ±È»Ê¹ÓÃ½Ï¶àµÄ»¹ÊÇExcel,ÒòÎªWordºÍPowerPointÓÃ³ÌÐò¶¯Ì¬²Ù×÷µÄÓ¦ÓÃ½ÏÉÙ¡£ÄÇÃ´±¾ÎÄ¾Í½áºÏPOIÀ´½éÉÜÒ»ÏÂ²Ù×÷ExcelµÄ·½·¨¡£ 
-    Office 2007µÄÎÄ¼þ½á¹¹ÍêÈ«²»Í¬ÓÚ2003,ËùÒÔ¶ÔÓÚÁ½¸ö°æ±¾µÄOffice×é¼þ,POIÓÐ²»Í¬µÄ´¦ÀíAPI,·Ö¿ªÊ¹ÓÃ¼´¿É¡£Ê×ÏÈÀ´Ëµ¼¸¸ö
-    ExcelµÄ»ù±¾¸ÅÄî¡£¶ÔÓÚÒ»¸öExcelÎÄ¼þ,Õâ³ÆÎªÒ»¸ö¹¤×÷²¾£¨Workbook£©,´ò¿ªExcelÖ®ºó,ÔÚÏÂ·½»áÓÐsheet1/2/3ÕâÑùµÄÑ¡Ïî¿¨,
-       µã»÷¿ÉÒÔÇÐ»»µ½²»Í¬µÄsheetÖÐ,Õâ¸ösheet³Æ×÷¹¤×÷±í¡£Ã¿¸ö¹¤×÷±í¾ÍÊÇÎÒÃÇ±à¼­µÄÇøÓò,ÕâÊÇÒ»ÕÅ¶þÎ¬±í,°¢À­²®Êý×Ö¿ØÖÆÐÐÊý,
-       ´Ó1¿ªÊ¼,¶ø³ÌÐòÖÐ»¹ÊÇ0,ÀàËÆÊý×éºÍ¼¯ºÏ¡£×ÖÄ¸¿ØÖÆÁÐÊý,´ÓA¿ªÊ¼,ZÒÔºóÊÇÁ½¸ö×ÖÄ¸¿ØÖÆ¡£¶ÔÓÚÃ¿Ò»ÐÐ,ÎÒÃÇ³ÆÎªRow,ÁÐ¾ÍÊÇ
-   	ColumnÐÐÁÐ¿ÉÒÔÈ·¶¨Î¨Ò»µÄÒ»¸öÔªËØ,ÄÇÃ´¾ÍÊÇµ¥Ôª¸ñ,³ÆÎªCell¡£ 
+	   Apacheçš„POIç»„ä»¶æ˜¯Javaæ“ä½œMicrosoft OfficeåŠžå…¬å¥—ä»¶çš„å¼ºå¤§API,å…¶ä¸­å¯¹Word,Excelå’ŒPowperPointéƒ½æœ‰æ”¯æŒ,
+	å½“ç„¶ä½¿ç”¨è¾ƒå¤šçš„è¿˜æ˜¯Excel,å› ä¸ºWordå’ŒPowerPointç”¨ç¨‹åºåŠ¨æ€æ“ä½œçš„åº”ç”¨è¾ƒå°‘ã€‚é‚£ä¹ˆæœ¬æ–‡å°±ç»“åˆPOIæ¥ä»‹ç»ä¸€ä¸‹æ“ä½œExcelçš„æ–¹æ³•ã€‚ 
+    Office 2007çš„æ–‡ä»¶ç»“æž„å®Œå…¨ä¸åŒäºŽ2003,æ‰€ä»¥å¯¹äºŽä¸¤ä¸ªç‰ˆæœ¬çš„Officeç»„ä»¶,POIæœ‰ä¸åŒçš„å¤„ç†API,åˆ†å¼€ä½¿ç”¨å³å¯ã€‚é¦–å…ˆæ¥è¯´å‡ ä¸ª
+    Excelçš„åŸºæœ¬æ¦‚å¿µã€‚å¯¹äºŽä¸€ä¸ªExcelæ–‡ä»¶,è¿™ç§°ä¸ºä¸€ä¸ªå·¥ä½œç°¿ï¼ˆWorkbookï¼‰,æ‰“å¼€Excelä¹‹åŽ,åœ¨ä¸‹æ–¹ä¼šæœ‰sheet1/2/3è¿™æ ·çš„é€‰é¡¹å¡,
+       ç‚¹å‡»å¯ä»¥åˆ‡æ¢åˆ°ä¸åŒçš„sheetä¸­,è¿™ä¸ªsheetç§°ä½œå·¥ä½œè¡¨ã€‚æ¯ä¸ªå·¥ä½œè¡¨å°±æ˜¯æˆ‘ä»¬ç¼–è¾‘çš„åŒºåŸŸ,è¿™æ˜¯ä¸€å¼ äºŒç»´è¡¨,é˜¿æ‹‰ä¼¯æ•°å­—æŽ§åˆ¶è¡Œæ•°,
+       ä»Ž1å¼€å§‹,è€Œç¨‹åºä¸­è¿˜æ˜¯0,ç±»ä¼¼æ•°ç»„å’Œé›†åˆã€‚å­—æ¯æŽ§åˆ¶åˆ—æ•°,ä»ŽAå¼€å§‹,Zä»¥åŽæ˜¯ä¸¤ä¸ªå­—æ¯æŽ§åˆ¶ã€‚å¯¹äºŽæ¯ä¸€è¡Œ,æˆ‘ä»¬ç§°ä¸ºRow,åˆ—å°±æ˜¯
+   	Columnè¡Œåˆ—å¯ä»¥ç¡®å®šå”¯ä¸€çš„ä¸€ä¸ªå…ƒç´ ,é‚£ä¹ˆå°±æ˜¯å•å…ƒæ ¼,ç§°ä¸ºCellã€‚ 
        
-       POI×é¼þ¿ÉÒÔ·½±ãµÄ²Ù×ÝÕâÐ©ÔªËØ,µ«³õ´Î½Ó´¥POI¿ÉÄÜ»áÓÐÎ·¾åÐÄÀí,ÒòÎªÒª¶ÔÃ¿¸öµ¥Ôª¸ñ½øÐÐÉèÖÃ,ÄÇÃ´²»¹ÜÊÇÓÃÊý×é»¹ÊÇ¼¯ºÏ,
-       ´Ó¹¤×÷²¾,¹¤×÷±í,ÐÐÏÂÀ´µÄ´úÂëÁ¿¶¼²»»áÐ¡,ÕâÊÇ²»ÄÜ±ÜÃâµÄ,µ«ÊÇ°´ÕÕÕâ¸ö´¦ÀíË³Ðò×ß,¾ÍÒ»¶¨¿ÉÒÔµÃµ½½á¹û¡£ÓÐÁËÕâÐ©»ù´¡µÄ¸ÅÄî
-       Ö®ºó,ÎÒÃÇ¾Í¿ÉÒÔ²Ù×÷ExcelÁË¡£ÏÈÀ´¿´Ò»ÏÂËùÐèµÄÒÀÀµ,ÒòÎªÉæ¼°µ½2007,¾ÍÒª¶îÍâ¼ÓÒ»Ð©ÒÀÀµ¡£ 
+       POIç»„ä»¶å¯ä»¥æ–¹ä¾¿çš„æ“çºµè¿™äº›å…ƒç´ ,ä½†åˆæ¬¡æŽ¥è§¦POIå¯èƒ½ä¼šæœ‰ç•æƒ§å¿ƒç†,å› ä¸ºè¦å¯¹æ¯ä¸ªå•å…ƒæ ¼è¿›è¡Œè®¾ç½®,é‚£ä¹ˆä¸ç®¡æ˜¯ç”¨æ•°ç»„è¿˜æ˜¯é›†åˆ,
+       ä»Žå·¥ä½œç°¿,å·¥ä½œè¡¨,è¡Œä¸‹æ¥çš„ä»£ç é‡éƒ½ä¸ä¼šå°,è¿™æ˜¯ä¸èƒ½é¿å…çš„,ä½†æ˜¯æŒ‰ç…§è¿™ä¸ªå¤„ç†é¡ºåºèµ°,å°±ä¸€å®šå¯ä»¥å¾—åˆ°ç»“æžœã€‚æœ‰äº†è¿™äº›åŸºç¡€çš„æ¦‚å¿µ
+       ä¹‹åŽ,æˆ‘ä»¬å°±å¯ä»¥æ“ä½œExceläº†ã€‚å…ˆæ¥çœ‹ä¸€ä¸‹æ‰€éœ€çš„ä¾èµ–,å› ä¸ºæ¶‰åŠåˆ°2007,å°±è¦é¢å¤–åŠ ä¸€äº›ä¾èµ–ã€‚ 
 	
-2¡¢=============jxl===============================================
+2ã€=============jxl===============================================
 	jxl.jar
 	
-	jxlÊÇÒ»¸öº«¹úÈËÐ´µÄjava²Ù×÷excelµÄ¹¤¾ß, ÔÚ¿ªÔ´ÊÀ½çÖÐ,ÓÐÁ½Ì×±È½ÏÓÐÓ°ÏìµÄAPI¿É ¹©Ê¹ÓÃ,Ò»¸öÊÇPOI,Ò»¸öÊÇjExcelAPI¡£
-	ÆäÖÐ¹¦ÄÜÏà¶ÔPOI±È½ÏÈõÒ»µã¡£µ«jExcelAPI¶ÔÖÐÎÄÖ§³Ö·Ç³£ºÃ,APIÊÇ´¿JavaµÄ, ²¢²» ÒÀÀµWindowsÏµÍ³,¼´Ê¹ÔËÐÐÔÚLinuxÏÂ,
-	ËüÍ¬ÑùÄÜ¹»ÕýÈ·µÄ´¦ÀíExcelÎÄ¼þ¡£ ÁíÍâÐèÒªËµÃ÷µÄÊÇ,ÕâÌ×API¶ÔÍ¼ÐÎºÍÍ¼±íµÄÖ§³ÖºÜÓÐÏÞ,¶øÇÒ ½ö½öÊ¶±ðPNG¸ñÊ½¡£
+	jxlæ˜¯ä¸€ä¸ªéŸ©å›½äººå†™çš„javaæ“ä½œexcelçš„å·¥å…·, åœ¨å¼€æºä¸–ç•Œä¸­,æœ‰ä¸¤å¥—æ¯”è¾ƒæœ‰å½±å“çš„APIå¯ ä¾›ä½¿ç”¨,ä¸€ä¸ªæ˜¯POI,ä¸€ä¸ªæ˜¯jExcelAPIã€‚
+	å…¶ä¸­åŠŸèƒ½ç›¸å¯¹POIæ¯”è¾ƒå¼±ä¸€ç‚¹ã€‚ä½†jExcelAPIå¯¹ä¸­æ–‡æ”¯æŒéžå¸¸å¥½,APIæ˜¯çº¯Javaçš„, å¹¶ä¸ ä¾èµ–Windowsç³»ç»Ÿ,å³ä½¿è¿è¡Œåœ¨Linuxä¸‹,
+	å®ƒåŒæ ·èƒ½å¤Ÿæ­£ç¡®çš„å¤„ç†Excelæ–‡ä»¶ã€‚ å¦å¤–éœ€è¦è¯´æ˜Žçš„æ˜¯,è¿™å¥—APIå¯¹å›¾å½¢å’Œå›¾è¡¨çš„æ”¯æŒå¾ˆæœ‰é™,è€Œä¸” ä»…ä»…è¯†åˆ«PNGæ ¼å¼ã€‚
  	
- 	²Î¿¼²©¿Í£ºhttp://www.cnblogs.com/raymond19840709/archive/2008/06/26/1230289.html
+ 	å‚è€ƒåšå®¢ï¼šhttp://www.cnblogs.com/raymond19840709/archive/2008/06/26/1230289.html
  	
-3¡¢ExcelµÄÑ§Ï°²Ù×÷.
+3ã€Excelçš„å­¦ä¹ æ“ä½œ.
 
 
-4¡¢jacob
-	1)Ê¹ÓÃjacobµÄÊ±ºòÒª°ÑC:\Program Files\Java\jdk1.6.0_21\binµÄÏÂÃæ£¬
-	    Èç¹ûÊÇÏµÍ³ÊÇbit32µÄ¾Í¿½±´jacob-1.18-M2-x86.dll
-	    Èç¹ûÊÇÏµÍ³ÊÇbit64µÄ¾Í¿½±´jacob-1.18-M2-x64.dll
-	    “þÕfÊ¹ÓÃJacobÒª°²ÑbÎ¢Ü›µÄoffice.JacobÄ¬ÕJÊÇÊ¹ÓÃofficeîŽì,·ñÔò»áËµÕÒ²»µ½
-	  jacob-1.18-M2-x86.dll»òÕßjacob-1.18-M2-x64.dllÎÄ¼þ£¬Ö»ÒªÄÜºÏÀíÊ¹ÓÃ¾Í²»»á
-	    ³öÏÖÎÊÌâ
+4ã€jacob
+	1)ä½¿ç”¨jacobçš„æ—¶å€™è¦æŠŠC:\Program Files\Java\jdk1.6.0_21\binçš„ä¸‹é¢ï¼Œ
+	    å¦‚æžœæ˜¯ç³»ç»Ÿæ˜¯bit32çš„å°±æ‹·è´jacob-1.18-M2-x86.dll
+	    å¦‚æžœæ˜¯ç³»ç»Ÿæ˜¯bit64çš„å°±æ‹·è´jacob-1.18-M2-x64.dll
+	    æ“šèªªä½¿ç”¨Jacobè¦å®‰è£å¾®è»Ÿçš„office.Jacobé»˜èªæ˜¯ä½¿ç”¨officeé¡žåº«,å¦åˆ™ä¼šè¯´æ‰¾ä¸åˆ°
+	  jacob-1.18-M2-x86.dllæˆ–è€…jacob-1.18-M2-x64.dllæ–‡ä»¶ï¼Œåªè¦èƒ½åˆç†ä½¿ç”¨å°±ä¸ä¼š
+	    å‡ºçŽ°é—®é¢˜
 	
-	2)webÍ¬Ê±Ò²¿½±´µ½tomcatµÄapache-tomcat-6.0.35\bin
+	2)webåŒæ—¶ä¹Ÿæ‹·è´åˆ°tomcatçš„apache-tomcat-6.0.35\bin
 	
-	3)Èç¹ûÊÇwebÔÚÏßÔÄ¶ÁµÄdocÎÄ¼þ£¬ÐèÒª°²×°SWFTools£¬²¢SWFTools×ª»»PDFÎªSWF²Å¿ÉÒÔÔÚÏßÔÄ¶Á.
+	3)å¦‚æžœæ˜¯webåœ¨çº¿é˜…è¯»çš„docæ–‡ä»¶ï¼Œéœ€è¦å®‰è£…SWFToolsï¼Œå¹¶SWFToolsè½¬æ¢PDFä¸ºSWFæ‰å¯ä»¥åœ¨çº¿é˜…è¯».
 	  http://www.swftools.org/
 	
 	  
-5¡¢pom.xmlµÄÅäÖÃjarµ½maven¿âËÑË÷¼ÓÉÏÈ¥¼´¿É£¬maven»á×Ô¶¯ÁªÍøÏÂÔØÌí¼Óµ½ÏîÄ¿¹¤³Ì
+5ã€pom.xmlçš„é…ç½®jaråˆ°mavenåº“æœç´¢åŠ ä¸ŠåŽ»å³å¯ï¼Œmavenä¼šè‡ªåŠ¨è”ç½‘ä¸‹è½½æ·»åŠ åˆ°é¡¹ç›®å·¥ç¨‹
    http://mvnrepository.com/
    
    
